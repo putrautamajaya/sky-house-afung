@@ -1,0 +1,24 @@
+.nearby-Facility {
+  width: 100vw;
+  height: 100vh;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .nearby-Facility {
+    padding-top: 170px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content-img {
+    display: block;
+    width: 950px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .nearby-Facility {
+    padding-top: 120px;
+  }
+}

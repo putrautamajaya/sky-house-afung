@@ -1,0 +1,36 @@
+$desktop: 1024px;
+
+.facility {
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+
+  img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: $desktop) {
+  img {
+    width: 100%;
+  }
+
+  .facility {
+    padding-top: 170px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .content-img {
+    display: block;
+    width: 950px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .facility {
+    padding-top: 120px;
+  }
+}
