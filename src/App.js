@@ -13,14 +13,14 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-        <react-fragment>
+        <React.Fragment>
           <NavigationBar className="navigationBar" />
           <Route path="/" component={HomePage} exact />
           <Route path="/facility" component={Facility} />
           <Route path="/roomOption" component={RoomOption} />
           <Route path="/nearbyFacility" component={NearbyFacility} />
           <Route path="/contact" component={Contact} />
-        </react-fragment>
+        </React.Fragment>
       </BrowserRouter>
     );
   }
